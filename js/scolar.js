@@ -1,6 +1,6 @@
 let firstName=document.getElementById("firstName")
 let lastName=document.getElementById("lastName")
-let age=document.getElementById("age")
+let age=parseInt(document.getElementById("age"))
 let gender=document.getElementById("gender")
 let phoneNum=document.getElementById("tel")
 let school=document.getElementById("school")
@@ -183,6 +183,7 @@ function clearLabels() {
 }
 
 function ageCalc() {
+    // let agePoints = parseInt(agePoints.value)
     if(age.value>=18 && age.value<=24){
         agePoints+=100
     }
