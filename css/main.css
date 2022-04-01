@@ -6,7 +6,7 @@
         button{margin-bottom: 50px;}
         .div1{width: 40%; overflow: hidden;}
         label{color: red;} 
-        fieldset{background-image: url(/js_Project/img-3.jpg); }
+        fieldset{background-image: url(../img-3.jpg); }
 
         .div3{margin: 10px 50px 0px -50px;}
         /* form{background-color: rgb(114, 72, 59); } */
